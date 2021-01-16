@@ -65,3 +65,6 @@ Modülü kullanabilirsiniz...!
 
 Aşağıda da modülümün ekran kaydını görüyorsunuz:
 
+![view](https://user-images.githubusercontent.com/47320654/104811824-49bfea80-580f-11eb-83b4-5718c359fb52.gif)
+
+
