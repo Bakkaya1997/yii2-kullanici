@@ -65,7 +65,7 @@ aşağıdaki kodu eklediğinizden emin olun!
   <pre><code>
   
    'modules' => [
-        'products' => [
+        'kullanici' => [
             'class' => 'barisakkaya\kullanici\Module',
         ],
     ],
