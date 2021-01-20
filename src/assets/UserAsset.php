@@ -1,6 +1,6 @@
 <?php
 
-namespace Bakkaya1997\kullanici\assets;
+namespace barisakkaya\kullanici\assets;
 
 use yii\web\AssetBundle;
 
