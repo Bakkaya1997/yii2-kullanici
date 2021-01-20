@@ -1,6 +1,6 @@
 <?php
 
-namespace Bakkaya1997\kullanici;
+namespace barisakkaya\kullanici;
 
 /**
  * kullanici module definition class
