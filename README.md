@@ -27,6 +27,30 @@ Aşağıda phpmyadmin sayfasından tabloları görüyorsunuz:
   "2amigos/yii2-date-picker-widget" : "~1.0"
   </pre></code>
   
+ - Modülümün controller kısmında AssetControl olayı sağlanmıştır. Bunun için aşağıdaki kod parçası kullanılmıştır:
+ 
+ <pre><code>
+  'access' => [
+                'class' => AccessControl::className(),
+                'only' => ['create', 'update','delete'],
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['@']
+                    ]
+                ]
+            ],
+  </pre></code>
+  
+  - Modülümde asset ve layouts dosyaları oluşturulmuştur. Bu dosyaların kullanılabilmesi için modül altındaki kullanici.php dosyasına aşağıdaki tanıtma işlemi yapılmıştır:
+  <pre><code>
+   $this->layout = 'myLayout';
+
+   $this->setAliases([
+   '@products-assets' => dirname(__DIR__). 'vendor/assets'
+   ]);
+   </pre></code>
+   
 <h3> Kurulum </h3>
 
 Modülü kendi projenizde kullanmak için packagist.org sitesinden faydalanabilirsiniz. Buraya projenizi ekledikten sonra,
@@ -65,6 +89,6 @@ Modülü kullanabilirsiniz...!
 
 Aşağıda da modülümün ekran kaydını görüyorsunuz:
 
-![view](https://user-images.githubusercontent.com/47320654/104811824-49bfea80-580f-11eb-83b4-5718c359fb52.gif)
+![view](https://user-images.githubusercontent.com/47320654/105162018-1e950e00-5b23-11eb-848a-75dccb3358ff.gif)
 
 
