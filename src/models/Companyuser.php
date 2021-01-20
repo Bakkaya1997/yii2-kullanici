@@ -1,6 +1,6 @@
 <?php
 
-namespace Bakkaya1997\kullanici\models;
+namespace barisakkaya\kullanici\models;
 
 use Yii;
 
