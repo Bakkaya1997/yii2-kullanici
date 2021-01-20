@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use Bakkaya1997\kullanici\models\Department;
+use barisakkaya\kullanici\models\Department;
 
 /* @var $this yii\web\View */
 /* @var $searchModel vendor\modules\kullanici\models\CompanyuserSearch */
