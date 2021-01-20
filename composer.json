@@ -1,11 +1,11 @@
 {
-  "name": "Bakkaya1997/yii2-kullanici",
+  "name": "barisakkaya/yii2-kullanici",
   "description": "Yii2 Kullanici Module",
   "type": "yii2-extension",
   "license": "MIT",
   "authors": [
     {
-      "name": "Bakkaya1997",
+      "name": "barisakkaya",
       "email": "180201038@kocaeli.edu.tr",
       "role": "Developer"
     }
@@ -19,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Bakkaya1997\\kullanici\\": "src"
+      "barisakkaya\\kullanici\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bakkaya1997\\kullanici\\tests\\": "tests"
+      "barisakkaya\\kullanici\\tests\\": "tests"
     }
   },
   "repositories": [
