@@ -3,7 +3,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use Bakkaya1997\kullanici\assets\UserAsset;
+use barisakkaya\kullanici\assets\UserAsset;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
