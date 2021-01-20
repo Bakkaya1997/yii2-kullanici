@@ -66,7 +66,7 @@ aşağıdaki kodu eklediğinizden emin olun!
   
    'modules' => [
         'products' => [
-            'class' => 'Bakkaya1997\kullanic\Module',
+            'class' => 'barisakkaya\kullanici\Module',
         ],
     ],
   
