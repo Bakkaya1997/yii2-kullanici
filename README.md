@@ -1,4 +1,4 @@
-<h1> Şirket Çalışanları Modülü </h1>
+<h1 style="color:red"> Şirket Çalışanları Modülü </h1>
 
 -Yazdığım modül, bir şirkette kullanılabilecek şekildedir. Yeni bir çalışan eklenebilir, güncellenebilir veya silinebilir.
 -Aynı zamanda yeni bir departman eklenebilir, güncellenebilir ve silinebilir.
