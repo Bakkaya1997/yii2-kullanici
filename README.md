@@ -32,7 +32,7 @@ Aşağıda phpmyadmin sayfasından tabloları görüyorsunuz:
 Modülü kendi projenizde kullanmak için packagist.org sitesinden faydalanabilirsiniz. Buraya projenizi ekledikten sonra,
   
    <pre><code>
-   composer require --prefer-dist tubasaygin/yii2-products "dev-main"
+   composer require --prefer-dist barisakkaya/yii2-kullanici "dev-main"
    </pre></code>
   
 Kurulum tarafını yaptıktan sonra, modülü projenize tanıtmanız gerekir. Bunun için backend altındaki config klasöründen main.php dosyasını açıp,
