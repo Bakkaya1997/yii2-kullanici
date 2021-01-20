@@ -1,6 +1,6 @@
 <?php
 
-namespace Bakkaya1997\kullanici\controllers;
+namespace barisakkaya\kullanici\controllers;
 
 use Yii;
 use vendor\modules\kullanici\models\Companyuser;
